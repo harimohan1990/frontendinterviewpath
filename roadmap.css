@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+aside {
+    width: 250px;
+    background-color: #343a40;
+    padding: 2em 1em;
+    color: white;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin: 1em 0;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+aside ul li a:hover {
+    color: #007bff;
+}
+
+section {
+    flex-grow: 1;
+    padding: 2em;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 1em;
+}
+
+/* Shared styles for all interview sections */
+section div {
+    width: 100%;
+    display: none; /* All sections hidden initially */
+    background-color: #f8f9fa;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+/* HTML-specific styles */
+#html_prep {
+    background-color: #f0f8ff;
+}
+
+/* CSS-specific styles */
+#css_prep {
+    background-color: #e6ffe6;
+}
+
+/* JavaScript-specific styles */
+#js_prep {
+    background-color: #fff8e1;
+}
+
+/* ReactJS-specific styles */
+#react_prep {
+    background-color: #ffe6e6;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
